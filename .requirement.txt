@@ -1,0 +1,52 @@
+Requirements for Urban Company-Type React Native App (Expo)
+1. User Roles & Authentication
+User registration & login (Email, Phone OTP, Google, Facebook)
+Service provider registration & onboarding
+Profile management for users and service providers
+Role-based authentication & authorization
+2. User Features
+Browse & search for services
+View service provider profiles, ratings, and reviews
+Book a service (instant booking or scheduled)
+Secure online payments (UPI, credit/debit card, wallets)
+Track service requests & order history
+In-app chat & call functionality with service providers
+Real-time service tracking & notifications
+Cancellation & rescheduling options
+Ratings & reviews for completed services
+3. Service Provider Features
+Profile setup & verification
+Manage services, pricing, and availability
+Accept/reject service requests
+View booking history & earnings dashboard
+In-app chat & call with customers
+Real-time notifications for bookings and payments
+Withdrawal options for earnings
+4. Admin Panel (Web-Based or Integrated in App)
+User & service provider management
+Approve/reject service providers
+Monitor bookings & transactions
+Handle disputes & complaints
+Manage categories, pricing, and promotions
+5. Payment & Wallet System
+Multiple payment gateways (Razorpay, Stripe, PayPal, etc.)
+Wallet system for users & service providers
+Automatic commission deduction for service providers
+Refund & cancellation policies
+6. Real-Time Features
+Push notifications for updates & reminders
+Real-time chat using Firebase or Socket.io
+Live service tracking with maps integration
+7. Additional Features
+Referral & loyalty program
+Promo codes & discounts
+Subscription plans for premium users/providers
+Multi-language support
+Dark mode & accessibility options
+8. Tech Stack
+Frontend: React Native (Expo)
+Backend: Firebase (Auth, Firestore, Functions)
+Payments: Razorpay/Stripe
+Maps & Location: Google Maps API
+Notifications: Firebase Cloud Messaging (FCM)
+Chat & Calls: Firebase/Socket.io/WebRTC
